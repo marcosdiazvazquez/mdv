@@ -87,7 +87,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="size-48">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
@@ -140,26 +140,39 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
-          {RESUME_DATA.education.map((education) => {
-            return (
-              <Card key={education.school}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
-                      {education.school}
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {education.start} - {education.end}
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="mt-2 print:text-[12px]">
-                  {education.degree}
-                </CardContent>
-              </Card>
-            );
-          })}
-        </Section>
+        {RESUME_DATA.education.map((education) => {
+    return (
+      <Card key={education.school}>
+        <CardHeader>
+          <div className="flex items-center justify-between gap-x-2 text-base">
+            <h3 className="font-semibold leading-none">
+              {education.school}
+            </h3>
+            <div className="text-sm tabular-nums text-gray-500">
+              {education.start} - {education.end}
+            </div>
+          </div>
+        </CardHeader>
+        <CardContent className="mt-2 print:text-[12px]">
+          <div>{education.degree}</div>
+          {education.badges && (
+            <div className="mt-2 flex flex-wrap gap-1">
+              {education.badges.map((badge) => (
+                <Badge
+                  className="print:text-[10px]"
+                  key={badge}
+                >
+                  {badge}
+                </Badge>
+              ))}
+            </div>
+          )}
+        </CardContent>
+      </Card>
+    );
+  })}
+</Section>
+
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
