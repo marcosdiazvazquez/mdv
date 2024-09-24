@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "programmer, student, etc.",
   summary:
     "working on it.",
-  avatarUrl: "https://cdn.discordapp.com/attachments/1249120381814706176/1279646603116019845/IMG_1912.jpg?ex=66d53344&is=66d3e1c4&hm=c46ae08552badd63dd7b8de0ba0230c32d553edda8e9c16ff6c38c62dca888c0&",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQFYyL6hfT0Jzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727207420805?e=1732752000&v=beta&t=4XOF9nTKebwfbQC_nvY0ofKUJJlmZ3OQxraxRCUyDVA",
   personalWebsiteUrl: "https://mdv-tau.vercel.app/",
   contact: {
     email: "mdv@udel.edu",
