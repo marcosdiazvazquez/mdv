@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "programmer, student, etc.",
   summary:
-    "working on it.",
+    "student at the university of delaware",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQFYyL6hfT0Jzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727207420805?e=1732752000&v=beta&t=4XOF9nTKebwfbQC_nvY0ofKUJJlmZ3OQxraxRCUyDVA",
   personalWebsiteUrl: "https://mdv-tau.vercel.app/",
   contact: {
