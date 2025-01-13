@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "programmer, student, etc.",
   summary:
     "student at the university of delaware",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQFYyL6hfT0Jzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727207420805?e=1732752000&v=beta&t=4XOF9nTKebwfbQC_nvY0ofKUJJlmZ3OQxraxRCUyDVA",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQFYyL6hfT0Jzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727207420805?e=1742428800&v=beta&t=dep2IsACHbk91a05vrVA8CPF_uYNm5h82vGGW5F95D4",
   personalWebsiteUrl: "https://mdv-tau.vercel.app/",
   contact: {
     email: "mdv@udel.edu",
@@ -51,7 +51,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Computer Science (B.S)",
       start: "2023",
       end: "Present",
-      badges: ["Introduction to Programming I & II", "Systems Programming", "Data Structures", "Machine Organization & Assembly Language", "Calculus I & II", "Discrete Mathematics", "Philosophy" 
+      badges: ["Introduction to Programming I & II", "Systems Programming", "Data Structures", "Machine Organization & Assembly Language", "Calculus I", "Discrete Mathematics", "Philosophy" 
       ],
     },
   ],
