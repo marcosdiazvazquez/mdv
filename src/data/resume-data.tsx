@@ -71,8 +71,10 @@ export const RESUME_DATA = {
   skills: [
     "Python",
     "TypeScript",
+    "C++",
     "C",
     "Git",
+    "ARM Assembly",
     "Unix",
     "Computer Maintenance",
   ],
