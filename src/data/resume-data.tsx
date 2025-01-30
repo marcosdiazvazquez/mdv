@@ -33,6 +33,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://www.marcosdiazvazquez.com/",
   contact: {
     email: "mdv@udel.edu",
+    tel: "",
     social: [
       {
         name: "GitHub",
