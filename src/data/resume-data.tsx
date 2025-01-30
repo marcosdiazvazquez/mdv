@@ -80,6 +80,8 @@ export const RESUME_DATA = {
     "Unix",
     "React",
     "Tailwind CSS",
+    "Pandas",
+    "NumPy",
     "Prompt-engineering",
     "Computer Maintenance",
   ],
