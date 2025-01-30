@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import marcosPic from "@/images/logos/marcosdiazvazquez.jpg";
 
 export const RESUME_DATA = {
   name: "Marcos Diaz Vazquez",
@@ -27,9 +28,9 @@ export const RESUME_DATA = {
   about:
     "programmer, student, etc.",
   summary:
-    "working on it.",
-  avatarUrl: "https://cdn.discordapp.com/attachments/1249120381814706176/1279646603116019845/IMG_1912.jpg?ex=66d53344&is=66d3e1c4&hm=c46ae08552badd63dd7b8de0ba0230c32d553edda8e9c16ff6c38c62dca888c0&",
-  personalWebsiteUrl: "https://jarocki.me",
+    "student at the university of delaware",
+  avatarUrl: "/images/marcosdiazvazquez.jpg",
+  personalWebsiteUrl: "https://www.marcosdiazvazquez.com/",
   contact: {
     email: "mdv@udel.edu",
     social: [
@@ -51,7 +52,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Computer Science (B.S)",
       start: "2023",
       end: "Present",
-      badges: ["Introduction to Programming I & II", "Systems Programming", "Data Structures", "Machine Organization & Assembly Language", "Calculus I & II", "Discrete Mathematics", "Philosophy" 
+      badges: ["Introduction to Programming I & II", "Systems Programming", "Data Structures", "Machine Organization & Assembly Language", "Calculus I", "Discrete Mathematics", "Philosophy" 
       ],
     },
   ],
@@ -71,25 +72,31 @@ export const RESUME_DATA = {
   skills: [
     "Python",
     "TypeScript",
+    "C++",
     "C",
+    "ARM Assembly",
     "Git",
     "Unix",
+    "React",
+    "Tailwind CSS",
+    "Prompt-engineering",
     "Computer Maintenance",
   ],
   projects: [
 
     {
-      title: "accountable restaurants delaware",
+      title: "InsightBites",
       techStack: [
         "TypeScript",
-        "Node",
-        "CSV",
+        "React",
+        "Vite",
+        "Tailwind CSS",
       ],
       description:
-        "Developed a TypeScript app to track Delaware restaurant health code violations.",
+        "Bringing clarity to restaurant safety—InsightBites visualizes Delaware health inspections with an interactive, easy-to-use interface that helps users make informed dining choices.",
       logo: EvercastLogo,
       link: {
-        href: "https://devpost.com/software/accountable-restaurants-de",
+        href: "https://github.com/marcosdiazvazquez/InsightBites",
       },
     },
   ],
