@@ -88,6 +88,22 @@ export const RESUME_DATA = {
   projects: [
 
     {
+      title: "UDelaWhere??",
+      techStack: [
+        "TypeScript",
+        "React",
+        "Hackaton",
+        "Three.js",
+        "Supabase",
+        "Leaflet",
+      ],
+      description:
+        "An immersive, interactive campus exploration game that helps University of Delaware students, especially freshmen, discover and learn about campus locations through engaging 360° panoramas.",
+      logo: EvercastLogo,
+      link: {
+        href: "https://github.com/ncb09/UDelaWhere",
+      },
+    },{
       title: "InsightBites",
       techStack: [
         "TypeScript",
