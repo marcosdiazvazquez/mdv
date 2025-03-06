@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       techStack: [
         "TypeScript",
         "React",
-        "Hackaton",
+        "Hackathon",
         "Three.js",
         "Supabase",
         "Leaflet",
