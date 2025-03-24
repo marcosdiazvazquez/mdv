@@ -82,7 +82,6 @@ export const RESUME_DATA = {
     "Tailwind CSS",
     "Pandas",
     "NumPy",
-    "Prompt-engineering",
     "Computer Maintenance",
   ],
   projects: [
