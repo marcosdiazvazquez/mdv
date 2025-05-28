@@ -45,7 +45,7 @@ export const RESUME_DATA = {
   about:
     "programmer, student, etc.",
   summary:
-    "Junior at the University of Delaware",
+    "Rising Junior at the University of Delaware",
   avatarUrl: "/images/marcosdiazvazquez.jpg",
   personalWebsiteUrl: "https://www.marcosdiazvazquez.com/",
   contact: {
