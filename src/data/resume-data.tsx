@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
     "programmer, student, etc.",
   summary:
-    "student at the university of delaware",
+    "Junior at the University of Delaware",
   avatarUrl: "/images/marcosdiazvazquez.jpg",
   personalWebsiteUrl: "https://www.marcosdiazvazquez.com/",
   contact: {
@@ -50,10 +50,10 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Delaware",
-      degree: "Bachelor's Degree in Computer Science (B.S)",
+      degree: "Bachelor's Degree in Computer Science (B.S.)",
       start: "2023",
       end: "Present",
-      badges: ["Introduction to Programming I & II", "Systems Programming", "Data Structures", "Machine Organization & Assembly Language", "Calculus I", "Discrete Mathematics", "Philosophy" 
+      badges: ["Data Structures","Introduction to Programming I & II (Object-Oriented Programming)","Introduction to Software Engineering", "Introduction to Systems Programming", "Machine Organization & Assembly Language", "Calculus I & II","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy" 
       ],
     },
   ],
@@ -79,10 +79,14 @@ export const RESUME_DATA = {
     "Git",
     "Unix",
     "React",
-    "Tailwind CSS",
+    "CSS",
     "Pandas",
     "NumPy",
+    "CI/CD",
+    "Agile Methodology",
+    "Prompt-engineering",
     "Computer Maintenance",
+    "Intermediate Spanish",
   ],
   projects: [
 
@@ -116,6 +120,20 @@ export const RESUME_DATA = {
       link: {
         href: "https://github.com/marcosdiazvazquez/InsightBites",
       },
-    },
+    },,{
+      title: "Pathfinder",
+      techStack: [
+        "TypeScript",
+        "React",
+        "OpenAI API",
+        "CSS",
+      ],
+      description:
+        "An AI-powered quiz that uses ChatGPT to analyze career preferences to find optimal careers. Developed as a final project for CISC275 at the University of Delaware.",
+      logo: EvercastLogo,
+      link: {
+        href: "https://github.com/NekroCat/Final-Project",
+      },
+    }
   ],
 } as const;
