@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { RESUME_DATA } from "@/data/resume-data";
+import { RESUME_DATA, Certification } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
@@ -201,6 +201,31 @@ export default function Page() {
               );
             })}
           </div>
+        </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Certifications</h2>
+          {RESUME_DATA.certifications.map((cert: Certification) => {
+            return (
+              <Card key={cert.title}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={cert.link}>
+                        {cert.title}
+                      </a>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {cert.date}
+                    </div>
+                  </div>
+                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
+                    {cert.issuer}
+                  </h4>
+                </CardHeader>
+              </Card>
+            );
+          })}
         </Section>
       </section>
 

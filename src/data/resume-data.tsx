@@ -20,6 +20,13 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import marcosPic from "@/images/logos/marcosdiazvazquez.jpg";
 
+export type Certification = {
+  title: string;
+  issuer: string;
+  date: string;
+  link: string;
+};
+
 export const RESUME_DATA = {
   name: "Marcos Diaz Vazquez",
   initials: "mdv",
@@ -88,8 +95,27 @@ export const RESUME_DATA = {
     "Computer Maintenance",
     "Intermediate Spanish",
   ],
+  certifications: [
+    {
+      title: "Python for Data Science, AI & Development",
+      issuer: "IBM",
+      date: "Jan 2025",
+      link: "https://coursera.org/share/f29ad618e865b484cced9dd31880ea1e",
+    },
+    {
+      title: "Version Control",
+      issuer: "Meta",
+      date: "Feb 2025",
+      link: "https://www.coursera.org/account/accomplishments/verify/0BGBSDRT314T",
+    },
+    {
+      title: "PC Professional",
+      issuer: "TestOut",
+      date: "Jun 2021",
+      link: "https://certification.testout.com/verifycert/6-2C6-BPKF5",
+    },
+  ] as const,
   projects: [
-
     {
       title: "UDelaWhere??",
       techStack: [
