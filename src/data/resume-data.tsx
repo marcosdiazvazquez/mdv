@@ -27,6 +27,16 @@ export type Certification = {
   link: string;
 };
 
+export type Project = {
+  title: string;
+  techStack: readonly string[];
+  description: string;
+  logo: any; // Using any for now since it's an imported component
+  link: {
+    href: string;
+  };
+};
+
 export const RESUME_DATA = {
   name: "Marcos Diaz Vazquez",
   initials: "mdv",
@@ -161,5 +171,5 @@ export const RESUME_DATA = {
         href: "https://github.com/NekroCat/Final-Project",
       },
     }
-  ],
+  ] as Project[],
 } as const;
