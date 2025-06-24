@@ -155,6 +155,11 @@ export default function Page() {
         </CardHeader>
         <CardContent className="mt-2 print:text-[12px]">
           <div>{education.degree}</div>
+          {education.concentration && (
+            <div className="mt-1 text-sm text-muted-foreground">
+              {education.concentration}
+            </div>
+          )}
           {education.badges && (
             <div className="mt-2 flex flex-wrap gap-1">
               {education.badges.map((badge) => (
@@ -228,6 +233,8 @@ export default function Page() {
           })}
         </Section>
       </section>
+
+      <div className="pb-8 md:pb-16"></div>
 
       <CommandMenu
         links={[

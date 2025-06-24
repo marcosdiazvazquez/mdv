@@ -67,7 +67,8 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Delaware",
-      degree: "Bachelor's Degree in Computer Science (B.S.)",
+      degree: "Bachelor's Degree in Computer Science (B.Sc.)",
+      concentration: "Artificial Intelligence and Robotics Concentration",
       start: "2023",
       end: "Present",
       badges: ["Data Structures","Introduction to Programming I & II (Object-Oriented Programming)","Introduction to Software Engineering", "Introduction to Systems Programming", "Machine Organization & Assembly Language", "Calculus I & II","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy" 
@@ -107,16 +108,16 @@ export const RESUME_DATA = {
   ],
   certifications: [
     {
-      title: "Python for Data Science, AI & Development",
-      issuer: "IBM",
-      date: "Jan 2025",
-      link: "https://coursera.org/share/f29ad618e865b484cced9dd31880ea1e",
-    },
-    {
       title: "Version Control",
       issuer: "Meta",
       date: "Feb 2025",
       link: "https://www.coursera.org/account/accomplishments/verify/0BGBSDRT314T",
+    },
+    {
+      title: "Python for Data Science, AI & Development",
+      issuer: "IBM",
+      date: "Jan 2025",
+      link: "https://coursera.org/share/f29ad618e865b484cced9dd31880ea1e",
     },
     {
       title: "PC Professional",
