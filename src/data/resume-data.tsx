@@ -45,7 +45,7 @@ export const RESUME_DATA = {
   about:
     "programmer, student, etc.",
   summary:
-    "Rising Junior at the University of Delaware",
+    "Junior at the University of Delaware",
   avatarUrl: "/images/marcosdiazvazquez.jpg",
   personalWebsiteUrl: "https://www.marcosdiazvazquez.com/",
   contact: {
@@ -67,24 +67,24 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Delaware",
-      degree: "Bachelor's Degree in Computer Science (B.Sc.)",
+      degree: "Bachelor's Degree in Computer Science (B.S.)",
       concentration: "Artificial Intelligence and Robotics Concentration",
       start: "2023",
       end: "Present",
-      badges: ["Data Structures","Introduction to Programming I & II (Object-Oriented Programming)","Introduction to Software Engineering", "Introduction to Systems Programming", "Machine Organization & Assembly Language", "Calculus I & II","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy" 
+      badges: ["Data Structures","Introduction to Programming I & II (Object-Oriented Programming)","Introduction to Software Engineering", "Introduction to Systems Programming", "Machine Organization & Assembly Language", "Calculus I - III","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy" 
       ],
     },
   ],
   work: [
     {
-      company: "Sussex Tech",
+    company: "Sussex Technical High School",
       link: "https://www.sussexvt.org/",
       badges: ["In-person"],
-      title: "IT Intern",
+      title: "Information Technology Intern",
       start: "Sept 2022",
       end: "Aug 2023",
       description:
-        "During my senior year, I participated in a paid work-based learning program at Sussex Technical High School, where I gained hands-on experience as an IT intern. My role involved a variety of tasks, such as documenting MacBook serial numbers, unboxing and setting up iPads for incoming freshmen, and configuring computer labs with iMacs and Windows PCs. I also handled routine maintenance like replacing toner ink and managing older technology for storage or disposal in accordance with State of Delaware protocols. Working alongside peers and under the guidance of senior staff, I developed practical IT skills in a real-world educational environment.",
+        "During my senior year, I participated in a paid work-based learning program at Sussex Technical High School, where I gained hands-on experience as an IT intern. My role involved a variety of tasks, such as documenting MacBook serial numbers, unboxing and setting up iPads for incoming freshmen, and configuring computer labs with iMacs and Windows PCs. I also handled routine maintenance like replacing toner ink and managing older technology for storage or disposal in accordance with State of Delaware protocols. ",
     },
   
   ],
