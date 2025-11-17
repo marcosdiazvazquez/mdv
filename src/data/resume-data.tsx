@@ -175,7 +175,7 @@ export const RESUME_DATA = {
         "An interactive impact visualization platform for the Lilabean Foundation that transparently tracks pediatric brain cancer research funding. Developed during JPMorgan Chase's Code for Good 2025 hackathon.",
       logo: EvercastLogo,
       link: {
-        href: "https://github.com/NekroCat/Final-Project",
+        href: "https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons",
       },
     },{
       title: "InsightBites",
