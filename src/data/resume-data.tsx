@@ -93,10 +93,13 @@ export const RESUME_DATA = {
     "TypeScript",
     "C++",
     "C",
+    "SQL",
     "ARM Assembly",
     "Git",
     "Unix",
     "React",
+    "Node.js",
+    "HTML",
     "CSS",
     "Pandas",
     "NumPy",
@@ -132,9 +135,10 @@ export const RESUME_DATA = {
       techStack: [
         "TypeScript",
         "React",
-        "Hackathon",
+        "HenHacks 2025",
         "Three.js",
         "Supabase",
+        "Gemini API",
         "Leaflet",
       ],
       description:
@@ -144,20 +148,6 @@ export const RESUME_DATA = {
         href: "https://github.com/ncb09/UDelaWhere",
       },
     },{
-      title: "InsightBites",
-      techStack: [
-        "TypeScript",
-        "React",
-        "Vite",
-        "Tailwind CSS",
-      ],
-      description:
-        "Bringing clarity to restaurant safety—InsightBites visualizes Delaware health inspections with an interactive, easy-to-use interface that helps users make informed dining choices.",
-      logo: EvercastLogo,
-      link: {
-        href: "https://github.com/marcosdiazvazquez/InsightBites",
-      },
-    },,{
       title: "Pathfinder",
       techStack: [
         "TypeScript",
@@ -171,6 +161,36 @@ export const RESUME_DATA = {
       link: {
         href: "https://github.com/NekroCat/Final-Project",
       },
-    }
+    },{
+      title: "LilaTrack",
+      techStack: [
+        "JavaScript",
+        "React",
+        "Gemini API",
+        "Supabase", 
+        "CSS",
+        "JPMorganChase Code for Good 2025",
+      ],
+      description:
+        "An interactive impact visualization platform for the Lilabean Foundation that transparently tracks pediatric brain cancer research funding. Developed during JPMorgan Chase's Code for Good 2025 hackathon.",
+      logo: EvercastLogo,
+      link: {
+        href: "https://github.com/NekroCat/Final-Project",
+      },
+    },{
+      title: "InsightBites",
+      techStack: [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "DE Open Data",
+      ],
+      description:
+        "Bringing clarity to restaurant safety—InsightBites visualizes Delaware health inspections with an interactive, easy-to-use interface that helps users make informed dining choices.",
+      logo: EvercastLogo,
+      link: {
+        href: "https://github.com/marcosdiazvazquez/InsightBites",
+      },
+    },
   ] as Project[],
 } as const;
