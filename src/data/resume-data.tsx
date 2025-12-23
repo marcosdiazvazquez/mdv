@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       concentration: "Artificial Intelligence and Robotics Concentration",
       start: "2023",
       end: "Present",
-      badges: ["Data Structures","Introduction to Programming I & II (Object-Oriented Programming)","Introduction to Software Engineering", "Introduction to Systems Programming", "Machine Organization & Assembly Language", "Calculus I - III","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy" 
+      badges: ["Data Structures","Algorithms", "Database Systems", "Object-Oriented Programming","Software Engineering", "Systems Programming", "Machine Organization & Assembly Language","Automata Theory", "Logic for Programming", "Calculus I - III","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy" 
       ],
     },
   ],
@@ -93,7 +93,7 @@ export const RESUME_DATA = {
     "TypeScript",
     "C++",
     "C",
-    "SQL",
+    "PL/SQL",
     "ARM Assembly",
     "Git",
     "Unix",
@@ -103,6 +103,7 @@ export const RESUME_DATA = {
     "CSS",
     "Pandas",
     "NumPy",
+    "Matplotlib",
     "CI/CD",
     "Agile Methodology",
     "Prompt-engineering",
