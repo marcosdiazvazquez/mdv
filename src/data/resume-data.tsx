@@ -108,7 +108,6 @@ export const RESUME_DATA = {
     "Agile Methodology",
     "Prompt-engineering",
     "Computer Maintenance",
-    "Intermediate Spanish",
   ],
   certifications: [
     {
@@ -131,6 +130,23 @@ export const RESUME_DATA = {
     },
   ] as const,
   projects: [
+    {
+      title: "gloss",
+      techStack: [
+        "Python",
+        "PySide6",
+        "Anthropic API",
+        "OpenAI API",
+        "Gemini API",
+        "First State AI Institute Ignite Challenge 2026",
+      ],
+      description:
+        "A desktop app for taking notes during lectures with AI-powered review built in after class. Displays PDF slides alongside a note-taking editor, then uses LLMs to validate understanding, answer questions, and catch mistakes.",
+      logo: EvercastLogo,
+      link: {
+        href: "https://github.com/marcosdiazvazquez/gloss",
+      },
+    },
     {
       title: "UDelaWhere??",
       techStack: [
@@ -155,6 +171,7 @@ export const RESUME_DATA = {
         "React",
         "OpenAI API",
         "CSS",
+        "CISC275",
       ],
       description:
         "An AI-powered quiz that uses ChatGPT to analyze career preferences to find optimal careers. Developed as a final project for CISC275 at the University of Delaware.",
