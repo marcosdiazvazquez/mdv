@@ -43,9 +43,9 @@ export const RESUME_DATA = {
   location: "Newark, DE",
   locationLink: "https://www.google.com/maps/place/Newark,DE/",
   about:
-    "programmer, student, etc.",
-  summary:
-    "Junior at the University of Delaware",
+    "CS @ University of Delaware · AI & Robotics",
+  metaDescription:
+    "Marcos Diaz Vazquez — Computer Science undergraduate at the University of Delaware concentrating in Artificial Intelligence and Robotics. Incoming Technical Marketing Intern at NVIDIA (Summer 2026).",
   avatarUrl: "/images/marcosdiazvazquez.jpg",
   personalWebsiteUrl: "https://www.marcosdiazvazquez.com/",
   contact: {
@@ -77,9 +77,18 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "NVIDIA",
+      link: "https://www.nvidia.com/",
+      badges: ["On-site"],
+      title: "Incoming Technical Marketing Intern",
+      start: "May 2026",
+      end: "Present",
+      description: "",
+    },
+    {
     company: "Sussex Technical High School",
       link: "https://www.sussexvt.org/",
-      badges: ["In-person"],
+      badges: ["On-site"],
       title: "Information Technology Intern",
       start: "Sept 2022",
       end: "Aug 2023",
