@@ -45,7 +45,7 @@ export const RESUME_DATA = {
   about:
     "CS @ University of Delaware · AI & Robotics",
   metaDescription:
-    "Marcos Diaz Vazquez — Computer Science undergraduate at the University of Delaware concentrating in Artificial Intelligence and Robotics. Incoming Technical Marketing Intern at NVIDIA (Summer 2026).",
+    "Marcos Diaz Vazquez — Computer Science undergraduate at the University of Delaware concentrating in Artificial Intelligence and Robotics. Technical Marketing Intern at NVIDIA (Summer 2026).",
   avatarUrl: "/images/marcosdiazvazquez.jpg",
   personalWebsiteUrl: "https://www.marcosdiazvazquez.com/",
   contact: {
@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       concentration: "Artificial Intelligence and Robotics Concentration",
       start: "2023",
       end: "Present",
-      badges: ["Data Structures","Algorithms", "Database Systems", "Object-Oriented Programming","Software Engineering", "Systems Programming", "Machine Organization & Assembly Language","Automata Theory", "Logic for Programming", "Calculus I - III","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy" 
+      badges: ["Data Structures","Algorithms", "Database Systems", "Artificial Intelligence", "Machine Learning", "Object-Oriented Programming","Software Engineering", "Systems Programming", "Parallel Computing", "Computer Vision", "Machine Organization & Assembly Language","Automata Theory", "Logic for Programming", "Calculus I - III","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy"
       ],
     },
   ],
@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       company: "NVIDIA",
       link: "https://www.nvidia.com/",
       badges: ["On-site"],
-      title: "Incoming Technical Marketing Intern",
+      title: "Technical Marketing Intern",
       start: "May 2026",
       end: "Present",
       description: "",
