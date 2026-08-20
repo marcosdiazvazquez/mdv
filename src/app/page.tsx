@@ -188,6 +188,11 @@ export default function Page() {
               {education.concentration}
             </div>
           )}
+          {education.minor && (
+            <div className="mt-1 text-sm text-muted-foreground">
+              {education.minor}
+            </div>
+          )}
           {education.badges && (
             <div className="mt-2 flex flex-wrap gap-1">
               {education.badges.map((badge) => (

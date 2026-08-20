@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
@@ -32,10 +32,11 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-// If loading a variable font, you don't need to specify the font weight
-const inter = Inter({
+// Variable font — no need to specify weights
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-jetbrains-mono",
 });
 
 export default function RootLayout({
@@ -44,7 +45,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className} suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`${jetbrainsMono.variable} font-mono`}
+      suppressHydrationWarning
+    >
       <head>
         <script
           dangerouslySetInnerHTML={{

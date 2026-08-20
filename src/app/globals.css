@@ -3,66 +3,72 @@
 @tailwind utilities;
 
 @layer base {
+  /* Light: warm cream paper, ink-brown text */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 224 71.4% 4.1%;
+    color-scheme: light;
 
-    --card: 0 0% 100%;
-    --card-foreground: 224 71.4% 4.1%;
+    --background: 40 33% 96%;
+    --foreground: 28 14% 13%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 71.4% 4.1%;
+    --card: 40 33% 96%;
+    --card-foreground: 28 14% 13%;
 
-    --primary: 220.9 39.3% 11%;
-    --primary-foreground: 210 20% 98%;
+    --popover: 42 45% 98%;
+    --popover-foreground: 28 14% 13%;
 
-    --secondary: 220 14.3% 95.9%;
-    --secondary-foreground: 220.9 39.3% 11%;
+    --primary: 26 20% 18%;
+    --primary-foreground: 40 40% 97%;
 
-    --muted: 220 14.3% 95.9%;
-    --muted-foreground: 220 8.9% 46.1%;
+    --secondary: 38 26% 89%;
+    --secondary-foreground: 26 22% 20%;
 
-    --accent: 220 14.3% 95.9%;
-    --accent-foreground: 220.9 39.3% 11%;
+    --muted: 38 26% 89%;
+    --muted-foreground: 32 10% 38%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 20% 98%;
+    --accent: 38 30% 86%;
+    --accent-foreground: 26 22% 20%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 224 71.4% 4.1%;
+    --destructive: 5 62% 45%;
+    --destructive-foreground: 40 40% 97%;
+
+    --border: 36 18% 76%;
+    --input: 36 18% 76%;
+    --ring: 30 18% 32%;
 
     --radius: 0.5rem;
   }
 
+  /* Dark: soft warm ink, not black — same warm hue family as the cream */
   .dark {
-    --background: 224 71.4% 4.1%;
-    --foreground: 210 20% 98%;
+    color-scheme: dark;
 
-    --card: 224 71.4% 4.1%;
-    --card-foreground: 210 20% 98%;
+    --background: 30 7% 11%;
+    --foreground: 40 22% 89%;
 
-    --popover: 224 71.4% 4.1%;
-    --popover-foreground: 210 20% 98%;
+    --card: 30 7% 11%;
+    --card-foreground: 40 22% 89%;
 
-    --primary: 210 20% 98%;
-    --primary-foreground: 220.9 39.3% 11%;
+    --popover: 30 7% 14%;
+    --popover-foreground: 40 22% 89%;
 
-    --secondary: 215 27.9% 16.9%;
-    --secondary-foreground: 210 20% 98%;
+    --primary: 40 22% 89%;
+    --primary-foreground: 30 8% 14%;
 
-    --muted: 215 27.9% 16.9%;
-    --muted-foreground: 217.9 10.6% 64.9%;
+    --secondary: 30 6% 19%;
+    --secondary-foreground: 40 20% 88%;
 
-    --accent: 215 27.9% 16.9%;
-    --accent-foreground: 210 20% 98%;
+    --muted: 30 6% 19%;
+    --muted-foreground: 38 12% 67%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 20% 98%;
+    --accent: 30 6% 23%;
+    --accent-foreground: 40 20% 90%;
 
-    --border: 215 27.9% 16.9%;
-    --input: 215 27.9% 16.9%;
-    --ring: 216 12.2% 83.9%;
+    --destructive: 5 55% 42%;
+    --destructive-foreground: 40 30% 94%;
+
+    --border: 30 6% 29%;
+    --input: 30 6% 29%;
+    --ring: 40 15% 68%;
   }
 }
 
@@ -72,6 +78,35 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* Always print on paper-white with black ink, even from dark mode */
+@media print {
+  :root,
+  .dark {
+    color-scheme: light;
+
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --primary: 0 0% 12%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 12%;
+
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 30%;
+
+    --accent: 0 0% 94%;
+    --accent-foreground: 0 0% 12%;
+
+    --border: 0 0% 80%;
+    --input: 0 0% 80%;
   }
 }
 
