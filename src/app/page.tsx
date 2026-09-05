@@ -126,7 +126,7 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
-        <Section>
+        <Section className="gap-y-5 print:gap-y-3">
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
@@ -137,27 +137,20 @@ export default function Page() {
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
-
-                      <span className="inline-flex flex-wrap gap-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
                     </h3>
                     <div className="text-sm tabular-nums text-muted-foreground">
                       {work.start} - {work.end ?? "Present"}
                     </div>
                   </div>
 
-                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
-                    {work.title}
-                  </h4>
+                  <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1">
+                    <h4 className="font-mono text-sm leading-none print:text-[12px]">
+                      {work.title}
+                    </h4>
+                    <div className="text-sm leading-none text-muted-foreground print:text-[12px]">
+                      {work.location}
+                    </div>
+                  </div>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs print:text-[10px]">
                   {work.description}
@@ -182,7 +175,12 @@ export default function Page() {
           </div>
         </CardHeader>
         <CardContent className="mt-2 print:text-[12px]">
-          <div>{education.degree}</div>
+          <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1">
+            <div>{education.degree}</div>
+            <div className="text-sm leading-none text-muted-foreground print:text-[12px]">
+              {education.location}
+            </div>
+          </div>
           {education.concentration && (
             <div className="mt-1 text-sm text-muted-foreground">
               {education.concentration}

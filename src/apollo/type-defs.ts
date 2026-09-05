@@ -27,6 +27,9 @@ export class Education {
   school: string;
 
   @Field(() => String)
+  location: string;
+
+  @Field(() => String)
   degree: string;
 
   @Field(() => String)
@@ -44,11 +47,11 @@ export class Work {
   @Field(() => String)
   link: string;
 
-  @Field(() => [String])
-  badges: string[];
-
   @Field(() => String)
   title: string;
+
+  @Field(() => String)
+  location: string;
 
   @Field(() => String)
   start: string;
