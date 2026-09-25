@@ -43,7 +43,7 @@ export const RESUME_DATA = {
   location: "Newark, DE",
   locationLink: "https://www.google.com/maps/place/Newark,DE/",
   about:
-    "CS @ University of Delaware · AI & Robotics",
+    "CS & uTA @ University of Delaware · AI & Robotics",
   metaDescription:
     "Marcos Diaz Vazquez — Computer Science undergraduate at the University of Delaware concentrating in Artificial Intelligence and Robotics. Undergraduate Teaching Assistant in the UD Department of Computer & Information Sciences and Technical Marketing Intern at NVIDIA (Summer 2026).",
   avatarUrl: "/images/marcosdiazvazquez.jpg",
@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       minor: "Philosophy Minor",
       start: "2023",
       end: "Present",
-      badges: ["Data Structures","Algorithms", "Database Systems", "Artificial Intelligence", "Machine Learning", "Object-Oriented Programming","Software Engineering", "Systems Programming", "Parallel Computing", "Computer Vision", "Machine Organization & Assembly Language","Automata Theory", "Logic for Programming", "Calculus I - III","Statistical Methods", "Discrete Mathematics", "Japanese I", "Philosophy"
+      badges: ["Data Structures","Algorithms", "Database Systems", "Artificial Intelligence", "Machine Learning", "Object-Oriented Programming","Software Engineering", "Systems Programming", "Parallel Computing", "Computer Vision", "Machine Organization & Assembly Language","Automata Theory", "Logic for Programming", "Calculus I - III","Statistical Methods", "Discrete Mathematics", "Japanese I"
       ],
     },
   ],
@@ -123,8 +123,12 @@ export const RESUME_DATA = {
     "NumPy",
     "Matplotlib",
     "CI/CD",
+    "Debugging",
+    "Benchmarking",
     "Agile Methodology",
     "Prompt-engineering",
+    "Claude Code",
+    "Codex",
     "Computer Maintenance",
   ],
   certifications: [
