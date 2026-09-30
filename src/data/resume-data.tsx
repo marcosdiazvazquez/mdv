@@ -88,8 +88,8 @@ export const RESUME_DATA = {
       description: "",
     },
     {
-      company: "NVIDIA",
-      link: "https://www.nvidia.com/",
+      company: "NVIDIA, Desktop GeForce",
+      link: "https://www.nvidia.com/en-us/geforce/",
       title: "Technical Marketing Intern",
       location: "Santa Clara, CA",
       start: "May 2026",

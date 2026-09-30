@@ -36,9 +36,9 @@ const personJsonLd = {
     sameAs: "https://www.udel.edu/",
   },
   worksFor: {
-    "@type": "Organization",
-    name: "NVIDIA",
-    sameAs: "https://www.nvidia.com/",
+    "@type": "CollegeOrUniversity",
+    name: "University of Delaware",
+    sameAs: "https://www.udel.edu/",
   },
   sameAs: RESUME_DATA.contact.social.map((s) => s.url),
 };
