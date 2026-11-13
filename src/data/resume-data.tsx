@@ -103,33 +103,35 @@ export const RESUME_DATA = {
       location: "Georgetown, DE",
       start: "Sept 2022",
       end: "Aug 2023",
-      description:
-        "During my senior year, I participated in a paid work-based learning program at Sussex Technical High School, where I gained hands-on experience as an IT intern. My role involved a variety of tasks, such as documenting MacBook serial numbers, unboxing and setting up iPads for incoming freshmen, and configuring computer labs with iMacs and Windows PCs. I also handled routine maintenance like replacing toner ink and managing older technology for storage or disposal in accordance with State of Delaware protocols. ",
+      description: "",
     },
   
   ],
   skills: [
     "Python",
+    "Swift",
     "TypeScript",
     "C/C++",
-    "PL/SQL",
+    "SQL",
     "ARM Assembly",
-    "Git",
-    "Unix",
+    "CUDA/OpenMP/MPI",
     "React",
+    "SwiftUI",
     "Node.js",
     "HTML/CSS",
+    "OpenCV",
     "Pandas",
     "NumPy",
     "Matplotlib",
+    "LLM APIs",
+    "Git",
+    "Unix",
+    "PowerShell",
+    "Docker",
     "CI/CD",
-    "Debugging",
     "Benchmarking",
     "Agile Methodology",
-    "Prompt-engineering",
-    "Claude Code",
-    "Codex",
-    "Computer Maintenance",
+    "Claude Code/Codex",
   ],
   certifications: [
     {
@@ -170,6 +172,22 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "hands-off",
+      techStack: [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "NumPy",
+        "AppleScript",
+      ],
+      description:
+        "A webcam-based hand-gesture controller for macOS. Tracks hand landmarks with MediaPipe and maps swipes and poses to system actions like switching desktops, opening Mission Control, controlling music playback, and taking screenshots.",
+      logo: EvercastLogo,
+      link: {
+        href: "https://github.com/rkdhruv/hands-off",
+      },
+    },
+    {
       title: "UDelaWhere??",
       techStack: [
         "TypeScript",
@@ -187,19 +205,19 @@ export const RESUME_DATA = {
         href: "https://github.com/ncb09/UDelaWhere",
       },
     },{
-      title: "Pathfinder",
+      title: "Orb",
       techStack: [
-        "TypeScript",
-        "React",
-        "OpenAI API",
-        "CSS",
-        "CISC275",
+        "Swift",
+        "SwiftUI",
+        "Metal",
+        "AVFoundation",
+        "Core Motion",
       ],
       description:
-        "An AI-powered quiz that uses ChatGPT to analyze career preferences to find optimal careers. Developed as a final project for CISC275 at the University of Delaware.",
+        "An iPhone app that captures and stitches 360° panoramas entirely on the phone. Guides you through each shot, aligns the photos using gyroscope and compass data, and shows the result in an interactive 360° viewer.",
       logo: EvercastLogo,
       link: {
-        href: "https://github.com/NekroCat/Final-Project",
+        href: "https://github.com/marcosdiazvazquez/orb",
       },
     },{
       title: "LilaTrack",
